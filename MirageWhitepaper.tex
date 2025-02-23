@@ -47,7 +47,7 @@ The total net existence of Mirage Assets are essentially all of Mirage Protocol'
 
 \subsection{True Interest Rate}
 
-A small amount of interest is taken at a flat rate on all debt, but this is within the Vault contract, and only alters the rebase $V$ (Sec.~\ref{sec:vaults}). Other parts of the protocol are creating and destroying debt all the time. Let's call the percent rate of debt creation or destruction $R_{\text{global}}$, such that every year this much is created or destroyed depending on the sign. Therefore, if a vault if the protocol is charging an interest rate of $R_V$, the effective ``true" interest rate is:
+A small amount of interest is taken at a flat rate on all debt, but this is within the Vault contract, and only alters the rebase $V$ (Sec.~\ref{sec:vaults}). Other parts of the protocol are creating and destroying debt all the time. Let's call the percent rate of debt creation or destruction $R_{\text{global}}$, such that every year this much is created or destroyed depending on the sign. Therefore, if a vault in the protocol is charging an interest rate of $R_V$, the effective ``true" interest rate is:
 
 \begin{equation}
     \text{true interest rate} := R_V + R_{\text{global}}
